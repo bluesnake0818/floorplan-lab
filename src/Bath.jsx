@@ -1,6 +1,8 @@
+import './App.css';
+
 const Bath = (props) => {
   return ( 
-    <div>
+    <div className='bath' id={`bath-${props.size}`}>
       <h2>{props.size} Bath</h2>
     </div>
   );

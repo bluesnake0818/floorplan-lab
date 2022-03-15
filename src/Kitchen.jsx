@@ -1,12 +1,13 @@
-import Oven from "./Oven";
-import Sink from "./Sink";
+import './App.css';
+// import Oven from "./Oven";
+// import Sink from "./Sink";
 
 const Kitchen = () => {
   return ( 
-    <div>
+    <div id="kitchen">
       <h2>Kitchen</h2>
-      {<Oven />}
-      {<Sink />}
+      {/* {<Oven />}
+      {<Sink />} */}
     </div>
   );
 }

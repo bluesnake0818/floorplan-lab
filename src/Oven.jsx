@@ -1,6 +1,8 @@
+import './App.css';
+
 const Oven = () => {
   return ( 
-    <div>
+    <div id="oven">
       <h2>Oven</h2>
     </div>
   );

@@ -1,6 +1,8 @@
+import './App.css';
+
 const Bedroom = (props) => {
   return ( 
-    <div>
+    <div className='bedroom' id={`bed-${props.bedNum}`}>
       <h2>Bedroom {props.bedNum}</h2>
     </div>
   );

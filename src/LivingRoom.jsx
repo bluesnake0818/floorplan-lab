@@ -1,6 +1,8 @@
+import './App.css';
+
 const LivingRoom = () => {
   return ( 
-    <div>
+    <div id="living-room">
       <h2>Living Room</h2>
     </div>
   );
